@@ -41,7 +41,9 @@ Kami berterima kasih kepada sponsor kami yang telah mendukung pengembangan Ecomm
 -- PaySecure<br>
 -- SellMore<br>
 
-### Kontribusi
+## Kontribusi
+
+Kontribusi Laravel
 
 Terima kasih atas minat Anda dalam mengembangkan Ecommerce! Panduan kontribusi dapat ditemukan di Dokumentasi Kontribusi.
 
