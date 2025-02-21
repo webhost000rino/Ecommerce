@@ -11,12 +11,12 @@
 
 Ecommerce adalah platform toko online dengan pengalaman belanja modern dan mudah digunakan. Dengan fitur yang lengkap dan desain yang responsif, Ecommerce membantu Anda mengelola bisnis online dengan lebih efisien.
 
--- Sistem manajemen produk yang mudah.
--- Proses checkout yang cepat dan aman.
--- Dukungan untuk berbagai metode pembayaran.
--- Integrasi dengan berbagai layanan pengiriman.
--- Dashboard analitik dan laporan.
--- Dukungan pelanggan yang responsif.
+-- Sistem manajemen produk yang mudah.<br>
+-- Proses checkout yang cepat dan aman.<br>
+-- Dukungan untuk berbagai metode pembayaran.<br>
+-- Integrasi dengan berbagai layanan pengiriman.<br>
+-- Dashboard analitik dan laporan.<br>
+-- Dukungan pelanggan yang responsif.<br>
 
 Ecommerce fleksibel dan skalabel, cocok untuk bisnis kecil hingga perusahaan besar.
 
@@ -24,9 +24,9 @@ Ecommerce fleksibel dan skalabel, cocok untuk bisnis kecil hingga perusahaan bes
 
 Ecommerce memiliki dokumentasi dan tutorial lengkap untuk membantu pengguna:
 
--- Dokumentasi lengkap
--- Laravel Bootcamp untuk membangun aplikasi dari awal.
--- Ecommerce Academy dengan ribuan video tutorial.
+-- Dokumentasi lengkap<br>
+-- Laravel Bootcamp untuk membangun aplikasi dari awal.<br>
+-- Ecommerce Academy dengan ribuan video tutorial.<br>
 
 ## Ecommerce Sponsors
 
@@ -34,12 +34,12 @@ Sponsor Ecommerce
 
 Kami berterima kasih kepada sponsor kami yang telah mendukung pengembangan Ecommerce. Jika Anda tertarik menjadi sponsor, silakan kunjungi Program Kemitraan Ecommerce.
 
--- Mitra Premium
--- OnlineStore Pro
--- FastCheckout
--- ShipEasy
--- PaySecure
--- SellMore
+-- Mitra Premium<br>
+-- OnlineStore Pro<br>
+-- FastCheckout<br>
+-- ShipEasy<br>
+-- PaySecure<br>
+-- SellMore<br>
 
 ### Kontribusi
 
