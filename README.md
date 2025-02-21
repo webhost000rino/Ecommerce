@@ -43,8 +43,6 @@ Kami berterima kasih kepada sponsor kami yang telah mendukung pengembangan Ecomm
 
 ### Kontribusi
 
-Kontribusi
-
 Terima kasih atas minat Anda dalam mengembangkan Ecommerce! Panduan kontribusi dapat ditemukan di Dokumentasi Kontribusi.
 
 ## Code of Conduct
