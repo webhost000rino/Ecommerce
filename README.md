@@ -7,60 +7,61 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Ecommerce
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Ecommerce adalah platform toko online dengan pengalaman belanja modern dan mudah digunakan. Dengan fitur yang lengkap dan desain yang responsif, Ecommerce membantu Anda mengelola bisnis online dengan lebih efisien.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-- Sistem manajemen produk yang mudah.
+-- Proses checkout yang cepat dan aman.
+-- Dukungan untuk berbagai metode pembayaran.
+-- Integrasi dengan berbagai layanan pengiriman.
+-- Dashboard analitik dan laporan.
+-- Dukungan pelanggan yang responsif.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Ecommerce fleksibel dan skalabel, cocok untuk bisnis kecil hingga perusahaan besar.
 
-## Learning Laravel
+## Ecommerce
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Ecommerce memiliki dokumentasi dan tutorial lengkap untuk membantu pengguna:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+-- Dokumentasi lengkap
+-- Laravel Bootcamp untuk membangun aplikasi dari awal.
+-- Ecommerce Academy dengan ribuan video tutorial.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Ecommerce Sponsors
 
-## Laravel Sponsors
+Sponsor Ecommerce
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Kami berterima kasih kepada sponsor kami yang telah mendukung pengembangan Ecommerce. Jika Anda tertarik menjadi sponsor, silakan kunjungi Program Kemitraan Ecommerce.
 
-### Premium Partners
+-- Mitra Premium
+-- OnlineStore Pro
+-- FastCheckout
+-- ShipEasy
+-- PaySecure
+-- SellMore
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Kontribusi
 
-## Contributing
+Kontribusi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Terima kasih atas minat Anda dalam mengembangkan Ecommerce! Panduan kontribusi dapat ditemukan di Dokumentasi Kontribusi.
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Kode Etik
+
+Untuk menciptakan komunitas yang ramah dan inklusif, harap mengikuti Kode Etik Ecommerce.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Keamanan
+
+Jika Anda menemukan celah keamanan, harap segera laporkan melalui email ke DigitechStore@gmail.com. Kami akan segera menindaklanjuti laporan Anda.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Lisensi
+
+Ecommerce adalah perangkat lunak open-source yang dilisensikan di bawah MIT license.
+
