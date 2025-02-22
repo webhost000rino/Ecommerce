@@ -124,3 +124,9 @@ Pemilik berhak mengubah ketentuan lisensi ini kapan saja dengan pemberitahuan ke
 
 📌 Hak Pengguna dan Admin Dilindungi
 Dengan menggunakan platform ini, pengguna dan admin dianggap telah menyetujui semua ketentuan dalam lisensi ini. Jika ada pelanggaran, tindakan hukum dapat diberlakukan sesuai dengan peraturan yang berlaku.
+
+
+Akun Admin :
+
+Email: admin1719@gmail.com
+password: 0909admin
