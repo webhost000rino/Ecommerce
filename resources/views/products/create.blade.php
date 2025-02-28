@@ -81,7 +81,8 @@
                         </div>
 
                         <button type="submit" class="btn btn-md btn-primary me-3">SAVE</button>
-                        <button type="reset" class="btn btn-md btn-warning">RESET</button>
+                        <button type="reset" class="btn btn-md btn-warning me-3">RESET</button>
+                        <a href="{{ route('products.index') }}" class="btn btn-md btn-secondary">KEMBALI</a>
                     </form>
                 </div>
             </div>

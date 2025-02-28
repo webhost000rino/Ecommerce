@@ -453,7 +453,9 @@
                     <p><strong>Email:</strong> DigitechOfficialstore@gmail.com</p>
                 </div>
                 <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <center>
+                        <img src="{{ asset('image/qrcoderev.png') }}" alt="qrcode" width="100px" height="auto">
+                    </center>
                 </div>
             </div>
         </div>
