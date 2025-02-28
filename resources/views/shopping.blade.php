@@ -9,6 +9,9 @@
     <!-- SweetAlert2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Add Owl Carousel CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', serif;
@@ -180,14 +183,16 @@
             color: #000;              /* Warna teks saat hover */
         }
 
-        /* General styling for the clients section */
+        /* ======= IMPROVED CLIENTS SECTION STYLING ======= */
         #clients {
             background-color: #f9f9f9;
             padding: 50px 0;
+            position: relative;
+            overflow: hidden;
         }
 
         #clients .section-heading {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         #clients .section-heading h2 {
@@ -209,143 +214,56 @@
             margin: 10px auto 0;
         }
 
-        /* Styling the clients area */
-        .clients-area {
-            position: relative;
+        /* Auto-scrolling brands section */
+        .clients-container {
             overflow: hidden;
+            width: 100%;
+            position: relative;
         }
 
-        #client.owl-carousel .item {
+        .brands-scroll {
             display: flex;
-            justify-content: center;
+            animation: scrollBrands 30s linear infinite;
+            width: calc(150px * 16); /* Double the items to ensure continuous loop */
+        }
+
+        .client-logo {
+            flex: 0 0 150px;
+            height: 120px;
+            display: flex;
             align-items: center;
-            padding: 10px;
+            justify-content: center;
+            padding: 15px;
         }
 
-        #client .item a {
-            display: inline-block;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        #client .item a:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        #client .item img {
+        .client-logo img {
             max-width: 100%;
-            height: auto;
+            max-height: 90px;
+            object-fit: contain;
             filter: grayscale(100%);
-            transition: filter 0.3s ease;
+            opacity: 0.7;
+            transition: all 0.3s ease;
         }
 
-        #client .item img:hover {
+        .client-logo:hover img {
             filter: grayscale(0%);
+            opacity: 1;
+            transform: scale(1.1);
         }
 
-        /* Owl Carousel Controls */
-        .owl-theme .owl-nav {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .owl-theme .owl-nav [class*="owl-"] {
-            color: #fff;
-            font-size: 14px;
-            background: #007bff;
-            border-radius: 3px;
-            padding: 5px 10px;
-            margin: 5px;
-            transition: background 0.3s ease;
-        }
-
-        .owl-theme .owl-nav [class*="owl-"]:hover {
-            background: #0056b3;
-        }
-
-        .owl-theme .owl-dots {
-            text-align: center;
-            margin-top: 15px;
-        }
-
-        .owl-theme .owl-dots .owl-dot {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            margin: 5px;
-            border-radius: 50%;
-            background: #ddd;
-            transition: background 0.3s ease;
-        }
-
-        .owl-theme .owl-dots .owl-dot.active {
-            background: #007bff;
-        }
-
-        /* Enable horizontal scrolling with item-by-item animation */
-        #client.owl-carousel {
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: hidden;
-        }
-
-        #client.owl-carousel .item {
-            flex: 0 0 auto;
-            width: auto;
-            margin-right: 15px;
-            opacity: 0;
-            transform: translateX(100%);
-            animation: scroll-item 1.5s ease-in-out forwards;
-        }
-
-        #client.owl-carousel .item:nth-child(1) {
-            animation-delay: 0s;
-        }
-
-        #client.owl-carousel .item:nth-child(2) {
-            animation-delay: 1s;
-        }
-
-        #client.owl-carousel .item:nth-child(3) {
-            animation-delay: 2s;
-        }
-
-        #client.owl-carousel .item:nth-child(4) {
-            animation-delay: 3s;
-        }
-
-        #client.owl-carousel .item:nth-child(5) {
-            animation-delay: 4s;
-        }
-
-        #client.owl-carousel .item:nth-child(6) {
-            animation-delay: 5s;
-        }
-
-        #client.owl-carousel .item:nth-child(7) {
-            animation-delay: 6s;
-        }
-
-        /* Hide scrollbar */
-        #client.owl-carousel::-webkit-scrollbar {
-            display: none;
-        }
-
-        #client.owl-carousel {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-
-        /* Item-by-item animation */
-        @keyframes scroll-item {
+        /* Animation for continuous scrolling */
+        @keyframes scrollBrands {
             0% {
-                opacity: 0;
-                transform: translateX(100%);
-            }
-            100% {
-                opacity: 1;
                 transform: translateX(0);
             }
+            100% {
+                transform: translateX(calc(-150px * 8)); /* Move by half the items */
+            }
+        }
+
+        /* Pause animation on hover */
+        .brands-scroll:hover {
+            animation-play-state: paused;
         }
     </style>
 </head>
@@ -404,41 +322,70 @@
         </div>
     </section>
     
-    <!--clients start -->
-		<section id="clients" class="clients">
-			<div class="section-heading text-center">
-				<h2>Brands</h2>
-			</div>
-			<div class="clients-area">
-				<div class="container">
-					<div class="owl-carousel owl-theme" id="client">
-						<div class="item">
-							<img src="{{ asset('image/polytron.jpg') }}" alt="brand-image" width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-							<img src="{{ asset('image/LG.png') }}" alt="brand-image"  width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-							<img src="{{ asset('image/IP.png') }}" alt="brand-image"  width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-							<img src="{{ asset('image/Asus.png') }}" alt="brand-image"  width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-							<img src="{{ asset('image/Acer.png') }}" alt="brand-image"  width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-							<img src="{{ asset('image/Lenovo.png') }}" alt="brand-image"  width="120px" height="120px"/>
-						</div><!--/.item-->
-						<div class="item">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google logo" width="120px" height="120px" />
-                        </div>
-					</div><!--/.owl-carousel-->
-				</div><!--/.container-->
-			</div><!--/.clients-area-->
-        </section><!--/.clients-->
-    </section><!--/.clients-->
-<!--clients end -->
+    <!-- Auto-scrolling Brands Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Brands</h2>
+            </div>
+            
+            <div class="clients-container">
+                <div class="brands-scroll">
+                    <!-- First set of logos -->
+                    <div class="client-logo">
+                        <img src="{{ asset('image/polytron.jpg') }}" alt="Polytron">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/LG.png') }}" alt="LG">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/IP.png') }}" alt="iPhone">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Asus.png') }}" alt="Asus">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Acer.png') }}" alt="Acer">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Lenovo.png') }}" alt="Lenovo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/samsung.png') }}" alt="Samsung">
+                    </div>
+                    <div class="client-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                    </div>
+                    
+                    <!-- Duplicate set to create a seamless loop -->
+                    <div class="client-logo">
+                        <img src="{{ asset('image/polytron.jpg') }}" alt="Polytron">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/LG.png') }}" alt="LG">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/IP.png') }}" alt="iPhone">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Asus.png') }}" alt="Asus">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Acer.png') }}" alt="Acer">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/Lenovo.png') }}" alt="Lenovo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="{{ asset('image/samsung.png') }}" alt="Samsung">
+                    </div>
+                    <div class="client-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Us Section -->
     <section id="contact" class="bg-light py-5">
