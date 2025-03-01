@@ -145,11 +145,10 @@ php artisan serv<br>
 
 💻 Teknologi yang Digunakan : <br>
 
-Frontend: [Boostrap]<br>
-Backend: [Laravel11]<br>
-Database: [MySQL]<br>
-Autentikasi: [JSON Web Token (JWT)]<br>
-Pemrosesan Pembayaran: [Transfer / Cash]<br>
+Frontend: Boostrap<br>
+Backend: Laravel 11<br>
+Database: XAMPP / MySQL<br>
+Autentikasi: JSON Web Token (JWT) / Middleware<br>
 
 📄 Lisensi<br>
 
