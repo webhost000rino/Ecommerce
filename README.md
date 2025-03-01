@@ -153,7 +153,7 @@ Autentikasi: JSON Web Token (JWT) / Middleware<br>
 📄 Lisensi<br>
 
 Hak Cipta & Kepemilikan : <br>
-Platform e-commerce ini sepenuhnya dimiliki oleh RINO XI RPL I. Seluruh kode sumber, desain, dan konten dilindungi oleh undang-undang hak cipta dan tidak boleh digunakan tanpa izin.<br>
+Platform e-commerce ini sepenuhnya dimiliki oleh RINO ONGKOWIJOYO XI RPL I. Seluruh kode sumber, desain, dan konten dilindungi oleh undang-undang hak cipta dan tidak boleh digunakan tanpa izin.<br>
 
 Izin Penggunaan : <br>
 Dengan menggunakan platform ini, pengguna setuju untuk : <br>
