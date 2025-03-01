@@ -128,7 +128,7 @@ bash<br>
 Copy<br>
 Edit<br>
 # Clone repositori<br>
-git clone https://github.com/yourrepository/Ecommerce.git<br>
+git clone https://github.com/webhost000rino/Ecommerce.git<br>
 
 # Masuk ke direktori proyek<br>
 cd Ecommerce<br>
@@ -140,7 +140,7 @@ npm install<br>
 cp .env.example .env<br>
 
 # Jalankan aplikasi<br>
-npm start<br>
+php artisan serv<br>
 =====================================================================================================<br>
 
 💻 Teknologi yang Digunakan : <br>
