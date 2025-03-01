@@ -10,6 +10,10 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
+Route::get('/landingpage', function () {
+    return view('landingpage');
+})->name('landingpage');
+
 // Halaman welcome, hanya bisa diakses setelah login
 Route::get('/welcome', function () {
     return view('welcome');

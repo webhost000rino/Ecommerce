@@ -98,6 +98,6 @@ class AuthController extends Controller
         Auth::logout();
 
         // Arahkan kembali ke halaman login
-        return redirect()->route('login');
+        return redirect()->route('landingpage');
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +13,17 @@
     <style>
         /* Variables */
         :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --accent-color: #e74c3c;
-            --light-color: #ecf0f1;
-            --dark-color: #2c3e50;
-            --text-color: #34495e;
-            --text-light: #7f8c8d;
+            --primary-color: #1a2f50;
+            --secondary-color: #3a86ff;
+            --accent-color: #ff5a5f;
+            --light-color: #f8f9fa;
+            --dark-color: #1a2f50;
+            --text-color: #343a40;
+            --text-light: #6c757d;
             --white: #ffffff;
             --transition: all 0.3s ease;
             --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            --navbar-height: 70px; /* Define navbar height for consistent spacing */
+            --navbar-height: 70px;
         }
         
         body {
@@ -155,6 +155,13 @@
             box-shadow: 0 6px 20px rgba(52, 152, 219, 0.6);
         }
         
+        .hero-btn:hover {
+            background-color: #2563eb;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(58, 134, 255, 0.6);
+            color: white;
+        }
+        
         /* Features Section Styling */
         .features-section {
             background-color: white;
@@ -244,6 +251,44 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(44, 62, 80, 0.4);
             color: white;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        }
+        
+        .about-content h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+        
+        .about-content p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        
+        .stats-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+        
+        .stats-text {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 500;
         }
         
         /* Contact Section Styling - Updated */
@@ -396,43 +441,6 @@
             padding-top: 20px;
         }
         
-        /* Button Styling */
-        .admin-btn {
-            background-color: #3498db;
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 600;
-            padding: 8px 20px;
-            border-radius: 50px;
-            border: none;
-            transition: all 0.3s ease;
-            margin-left: 10px;
-        }
-        
-        .admin-btn:hover {
-            background-color: #2980b9;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
-        }
-        
-        .logout-btn {
-            background-color: #e74c3c;
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 600;
-            padding: 8px 20px;
-            border-radius: 50px;
-            border: none;
-            transition: all 0.3s ease;
-            margin-left: 10px;
-        }
-        
-        .logout-btn:hover {
-            background-color: #c0392b;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
-        }
-        
         /* Responsive Adjustments */
         @media (max-width: 992px) {
             .navbar-nav {
@@ -546,20 +554,16 @@
                         <a class="nav-link" href="#features"><i class="fas fa-boxes"></i> Products</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/products" class="btn admin-btn" id="adminBtn" style="display: none;">
-                            <i class="fas fa-user-shield"></i> Admin
-                        </a>
+                        <a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i> Sign in</a>
                     </li>
                     <li class="nav-item">
-                        <form action="{{ route('logout') }}" method="POST" class="d-inline" id="logoutForm">
-                            @csrf
-                            <button type="submit" class="btn logout-btn">
-                                <i class="fas fa-sign-out-alt"></i> Logout
-                            </button>
-                        </form>
+                        <a class="nav-link" href="/register"><i class="fas fa-sign-in-alt"></i> Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -616,6 +620,54 @@
                 <button class="btn explore-btn" id="exploreBtn">
                     <i class="fas fa-compass"></i> Jelajahi Semua Produk
                 </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-content">
+                        <div class="section-title text-start">
+                            <h2>About Digitech Store</h2>
+                        </div>
+                        <p>Digitech Store adalah toko teknologi terkemuka yang menyediakan berbagai produk berkualitas, termasuk laptop, HP, dan TV. Dengan lebih dari 10 tahun pengalaman, kami berkomitmen untuk menghadirkan produk terbaik dengan harga bersaing.</p>
+                        <p>Kami selalu mengutamakan kepuasan pelanggan dengan menyediakan berbagai pilihan produk dari merek ternama, layanan konsultasi, serta dukungan purna jual yang profesional. Belanja di Digitech Store, solusi terbaik untuk kebutuhan teknologi Anda.</p>
+                        <a href="#features" class="btn hero-btn mt-3"><i class="fas fa-shopping-cart"></i> Lihat Produk Kami</a>
+                    </div>
+                </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="stats-item">
+                                    <div class="stats-number">1000+</div>
+                                    <div class="stats-text">Produk Terjual</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-item">
+                                    <div class="stats-number">500+</div>
+                                    <div class="stats-text">Pelanggan Puas</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-item">
+                                    <div class="stats-number">100+</div>
+                                    <div class="stats-text">Brand Terpercaya</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-item">
+                                    <div class="stats-number">10+</div>
+                                    <div class="stats-text">Tahun Pengalaman</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
@@ -711,6 +763,8 @@
 
     <!-- SweetAlert2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         // Navbar scroll effect
@@ -723,9 +777,9 @@
             }
         });
         
-        // SweetAlert untuk tombol "Jelajahi Sekarang"
+        // SweetAlert for "View All Services" button
         document.getElementById('exploreBtn').addEventListener('click', function(e) {
-            e.preventDefault(); // Mencegah aksi default tombol
+            e.preventDefault();
 
             Swal.fire({
                 title: 'Jelajahi Produk Kami?',
@@ -738,63 +792,14 @@
                 cancelButtonText: 'Nanti Saja'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Arahkan ke halaman belanja atau lakukan logika lainnya
-                    window.location.href = '/shopping';
+                    // Redirect to services page
+                    // window.location.href = '/services';
+                    Swal.fire(
+                        'Coming Soon!',
+                        'Login terlebih dahulu sebelum mulai penjelajahan.',
+                        'info'
+                    );
                 }
-            });
-        });
-
-        window.onload = function () {
-            // Mendapatkan email pengguna yang sedang login
-            const userEmail = '{{ Auth::user()->email ?? '' }}'; // Email pengguna dari server-side Laravel
-            const adminEmail = 'admin1719@gmail.com';
-
-            // Menampilkan tombol Admin jika email pengguna adalah admin
-            const adminButton = document.getElementById('adminBtn');
-            if (userEmail === adminEmail && adminButton) {
-                adminButton.style.display = 'inline-block'; // Tampilkan tombol Admin
-            }
-
-            // Menyembunyikan tombol Logout jika email pengguna adalah admin
-            const logoutButton = document.querySelector('.logout-btn');
-            if (userEmail === adminEmail && logoutButton) {
-                logoutButton.style.display = 'none'; // Sembunyikan tombol Logout
-            }
-
-            const exploreBtn = document.querySelector('#exploreBtn');
-            if (userEmail === adminEmail && exploreBtn) {
-                exploreBtn.style.display = 'none';
-            }
-        };
-
-        // SweetAlert untuk tombol "Keluar"
-        document.getElementById('logoutForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Mencegah pengiriman formulir
-
-            Swal.fire({
-                title: 'Keluar dari Akun?',
-                text: "Anda akan keluar dari sesi saat ini",
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3498db',
-                cancelButtonColor: '#e74c3c',
-                confirmButtonText: 'Ya, Keluar!',
-                cancelButtonText: 'Batal'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    // Kirim formulir jika dikonfirmasi
-                    this.submit();
-                }
-            });
-        });
-
-        // Smooth scrolling for navbar links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
             });
         });
 
@@ -812,6 +817,5 @@
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

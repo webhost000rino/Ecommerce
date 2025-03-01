@@ -1,132 +1,177 @@
-📌 Panduan Pengguna (Customer)
-1. Pendaftaran & Login
-    🔹 Mendaftar
-    ----------------------------------
-    Klik tombol "Daftar" di halaman utama.
-    Masukkan username dan password yang diinginkan.
-    Klik "Register" untuk menyimpan data.
-    Setelah sukses, Anda akan diarahkan ke halaman login.
+🛒 Platform E-Commerce<br>
 
-    🔹 Login
-    ----------------------------------
-    Klik tombol "Masuk" atau "Login".
-    Masukkan username dan password Anda.
-    Klik "Login", lalu Anda akan masuk ke halaman utama.
+Dikembangkan oleh RINO ONGKOWIJOYO XI RPL I<br>
 
-2. Berbelanja Produk
-    🔹 Melihat Produk
-    ----------------------------------
-    Pilih menu "Shop" atau "Toko" untuk melihat produk yang tersedia.
-    Klik pada produk untuk melihat detailnya, termasuk harga, deskripsi, dan ketersediaan stok.
-    🔹 Menambahkan Produk ke Keranjang
-    ----------------------------------
-    Pada halaman detail produk, pilih jumlah produk yang ingin dibeli.
-    Klik tombol "Tambah ke Keranjang".
-    Produk akan masuk ke keranjang belanja Anda.
-    🔹 Melihat Keranjang & Checkout
-    ----------------------------------
-    Klik ikon keranjang untuk melihat daftar produk yang telah dipilih.
-    Jika sudah sesuai, klik "Checkout".
-    Masukkan informasi alamat pengiriman dan pilih metode pembayaran.
-    Klik "Bayar Sekarang" untuk menyelesaikan pembelian.
+Solusi e-commerce lengkap dengan antarmuka terpisah untuk pelanggan dan admin, menciptakan pengalaman belanja online yang optimal.<br>
 
-3. Melihat Riwayat Pembelian
-    Masuk ke halaman "Riwayat Pembelian" di menu akun Anda.
-    Anda dapat melihat status pesanan:
-    Menunggu Pembayaran
-    Diproses
-    Dikirim
-    Selesai
-4. Logout
-    Klik menu "Akun".
-    Pilih "Logout" untuk keluar dari akun Anda.
+📋 Daftar Isi : <br>
 
+Fitur<br>
+Panduan Pengguna<br>
+Antarmuka Pelanggan<br>
+Antarmuka Admin<br>
+Instalasi<br>
+Teknologi yang Digunakan<br>
+Lisensi<br>
 
-🔑 Panduan Admin
-1. Login Admin
-    Akses halaman admin melalui "/admin" atau halaman login admin.
-    Masukkan username dan password admin.
-    Klik "Login", lalu Anda akan masuk ke dashboard admin.
-2. Mengelola Produk
-    🔹 Menambahkan Produk Baru
-    ----------------------------------
-    Masuk ke menu "Manajemen Produk".
-    Klik tombol "Tambah Produk".
-    Masukkan informasi:
-    Nama produk
-    Deskripsi
-    Harga
-    Stok tersedia
-    Gambar produk
-    Klik "Simpan" untuk menambahkan produk.
+✨ Fitur : <br>
 
-    🔹 Mengedit Produk
-    ----------------------------------
-    Pilih produk yang ingin diedit di menu "Manajemen Produk".
-    Klik "Edit", ubah informasi yang diperlukan.
-    Klik "Simpan Perubahan".
+Untuk Pelanggan : <br>
+✔ Pendaftaran dan autentikasi pengguna<br>
+✔ Menelusuri dan mencari produk<br>
+✔ Fungsi keranjang belanja<br>
+✔ Pemesanan dan pelacakan pesanan<br>
+✔ Riwayat pembelian<br>
 
-    🔹 Menghapus Produk
-    ----------------------------------
-    Pilih produk di menu "Manajemen Produk".
-    Klik "Hapus", lalu konfirmasi penghapusan.
+Untuk Administrator : <br>
+✔ Dashboard dengan tampilan analitik<br>
+✔ Manajemen produk (tambah, edit, hapus)<br>
+✔ Pemrosesan pesanan dan pembaruan status<br>
+✔ Manajemen pengguna<br>
+✔ Kontrol inventaris<br>
 
-3. Mengelola Pesanan
-    Masuk ke menu "Manajemen Pesanan".
-    Pilih pesanan yang masuk dan periksa detailnya.
-    Ubah status pesanan berdasarkan proses:
-    "Diproses" → Jika pesanan telah dikonfirmasi.
-    "Dikirim" → Jika produk sudah dikirim ke pelanggan.
-    "Selesai" → Jika pesanan telah diterima pelanggan.
+📚 Panduan Pengguna : <br>
 
-4. Mengelola Pengguna
-    Masuk ke menu "Manajemen Pengguna".
-    Admin dapat melihat daftar pengguna yang terdaftar.
-    Jika ada pelanggaran, admin bisa menonaktifkan atau menghapus akun pengguna.
+Antarmuka Pelanggan<br>
+🔐 Pendaftaran & Login<br>
+Membuat Akun : <br>
 
-5. Logout Admin
-    Klik menu "Akun".
-    Pilih "Logout" untuk keluar dari dashboard admin.
+Klik tombol "Daftar" di halaman utama<br>
+Masukkan nama pengguna dan kata sandi yang diinginkan<br>
+Klik "Register" untuk menyimpan informasi<br>
+Anda akan diarahkan ke halaman login<br>
+Masuk ke Akun<br>
+
+Klik tombol "Masuk" atau "Login"<br>
+Masukkan nama pengguna dan kata sandi<br>
+Klik "Login" untuk mengakses akun<br>
+
+🛍️ Belanja : <br>
+
+Menelusuri Produk<br>
+Buka bagian "Toko" atau "Shop"<br>
+Klik produk untuk melihat detail, harga, deskripsi, dan ketersediaan stok<br>
+Menambahkan ke Keranjang<br>
+Pada halaman detail produk, pilih jumlah yang diinginkan<br>
+Klik "Tambah ke Keranjang" untuk menyimpan ke daftar belanja<br>
+Proses Checkout<br>
+Klik ikon keranjang untuk meninjau item yang dipilih<br>
+Klik "Checkout" saat siap membeli<br>
+Masukkan alamat pengiriman dan pilih metode pembayaran<br>
+Klik "Bayar Sekarang" untuk menyelesaikan pembelian<br>
 
 
-=========================================================================================================================
+📜 Mengelola Akun : <br>
 
-📜 Lisensi Penggunaan Web E-Commerce
-1. Hak Cipta & Kepemilikan
-Web e-commerce ini adalah hak milik penuh dari ['RINO XI RPL I']. Semua kode sumber, desain, dan konten yang terdapat dalam platform ini dilindungi oleh undang-undang hak cipta dan tidak boleh digunakan tanpa izin.
+Riwayat Pesanan : <br>
+Buka menu "Riwayat Pembelian" di akun Anda<br>
 
-2. Izin Penggunaan
-Dengan menggunakan web e-commerce ini, pengguna setuju untuk:
-✅ Menggunakan layanan ini sesuai dengan hukum yang berlaku.
-✅ Tidak menyalin, mendistribusikan, atau memodifikasi kode tanpa izin pemilik.
-✅ Menggunakan platform ini hanya untuk tujuan jual-beli yang sah.
+Lihat status pesanan : <br>
+Menunggu Pembayaran<br>
+Sedang Diproses<br>
+Dikirim<br>
+Selesai<br>
+Keluar dari Akun<br>
+Klik menu "Akun"<br>
+Pilih "Logout" untuk keluar<br>
 
-3. Batasan Penggunaan
-❌ Pengguna dilarang melakukan peretasan, eksploitasi bug, atau tindakan ilegal lainnya.
-❌ Dilarang menyalin atau mendistribusikan konten tanpa izin pemilik.
-❌ Tidak diperbolehkan menggunakan platform ini untuk penipuan atau kegiatan ilegal lainnya.
+Antarmuka Admin : <br>
 
-4. Lisensi untuk Admin & Developer
-🔹 Lisensi Open Source (Jika Berlaku):
-Jika bagian dari sistem ini menggunakan teknologi open-source, maka komponen tersebut tetap mengikuti lisensi masing-masing.
+🔑 Akses Admin : <br>
 
-🔹 Lisensi Internal:
-Admin dan developer diberikan akses penuh untuk mengelola sistem, tetapi tidak diperkenankan menjual atau mendistribusikan sistem tanpa izin dari pemilik.
+Akses panel admin melalui "/products" atau halaman dashboard admin<br>
 
-5. Pembatasan Tanggung Jawab
-Pemilik web e-commerce tidak bertanggung jawab atas kerugian akibat:
+Gunakan kredensial berikut:<br>
 
-Penyalahgunaan platform oleh pengguna.
-Serangan siber atau peretasan yang dilakukan oleh pihak ketiga.
-Kesalahan dalam penggunaan sistem di luar ketentuan yang diberikan.
-6. Perubahan Lisensi
-Pemilik berhak mengubah ketentuan lisensi ini kapan saja dengan pemberitahuan kepada pengguna.
+Email: admin1719@gmail.com<br>
+Password: 0909admin<br>
 
-📌 Hak Pengguna dan Admin Dilindungi
-Dengan menggunakan platform ini, pengguna dan admin dianggap telah menyetujui semua ketentuan dalam lisensi ini. Jika ada pelanggaran, tindakan hukum dapat diberlakukan sesuai dengan peraturan yang berlaku.
+📦 Manajemen Produk : <br>
+
+Menambahkan Produk : <br>
+Masuk ke "Manajemen Produk"<br>
+Klik "Tambah Produk"<br>
+Isi formulir produk dengan : <br>
+Nama produk <br>
+Deskripsi <br>
+Harga <br>
+Stok yang tersedia <br>
+Gambar produk <br>
+Klik "Simpan" untuk menambahkan produk <br>
+
+Mengedit Produk : <br>
+Temukan produk di "Manajemen Produk"<br>
+Klik "Edit", lalu perbarui informasi<br>
+Klik "Simpan Perubahan" untuk menyimpan<br>
+Menghapus Produk<br>
+Pilih produk di "Manajemen Produk"<br>
+Klik "Hapus" dan konfirmasi penghapusan<br>
+
+📊 Manajemen Pesanan : <br>
+
+Akses "Manajemen Pesanan"<br>
+Tinjau pesanan masuk dan perbarui status : <br>
+"Diproses" – Pesanan dikonfirmasi<br>
+"Dikirim" – Produk dalam perjalanan<br>
+"Selesai" – Pesanan telah diterima pelanggan<br>
+
+👥 Manajemen Pengguna : <br>
+
+Masuk ke "Manajemen Pengguna"<br>
+Lihat daftar pengguna terdaftar<br>
+Nonaktifkan atau hapus akun jika diperlukan<br>
+
+===================================================================================================<br>
+🚀 Instalasi<br>
+
+bash<br>
+Copy<br>
+Edit<br>
+# Clone repositori<br>
+git clone https://github.com/yourrepository/Ecommerce.git<br>
+
+# Masuk ke direktori proyek<br>
+cd Ecommerce<br>
+
+# Instal dependensi<br>
+npm install<br>
+
+# Atur variabel lingkungan<br>
+cp .env.example .env<br>
+
+# Jalankan aplikasi<br>
+npm start<br>
+=====================================================================================================<br>
+
+💻 Teknologi yang Digunakan : <br>
+
+Frontend: [Framework frontend yang digunakan]<br>
+Backend: [Framework backend yang digunakan]<br>
+Database: [Database yang digunakan]<br>
+Autentikasi: [Sistem autentikasi yang digunakan]<br>
+Pemrosesan Pembayaran: [Gateway pembayaran yang digunakan]<br>
+
+📄 Lisensi<br>
+
+Hak Cipta & Kepemilikan : <br>
+Platform e-commerce ini sepenuhnya dimiliki oleh RINO XI RPL I. Seluruh kode sumber, desain, dan konten dilindungi oleh undang-undang hak cipta dan tidak boleh digunakan tanpa izin.<br>
+
+Izin Penggunaan : <br>
+Dengan menggunakan platform ini, pengguna setuju untuk : <br>
+✔ Menggunakan layanan sesuai dengan hukum yang berlaku<br>
+✔ Tidak menyalin, mendistribusikan, atau memodifikasi kode tanpa izin<br>
+✔ Menggunakan platform hanya untuk transaksi jual-beli yang sah<br>
+
+Larangan Penggunaan : <br>
+❌ Pengguna dilarang melakukan peretasan, eksploitasi bug, atau tindakan ilegal lainnya<br>
+❌ Dilarang menyalin atau mendistribusikan konten tanpa izin<br>
+❌ Dilarang menggunakan platform untuk penipuan atau aktivitas ilegal<br>
+
+Dikembangkan dengan ❤️ oleh RINO ONGKOWIJOYO XI RPL I
 
 
-Akun Admin :
 
-Email: admin1719@gmail.com
-password: 0909admin
+
+
+
+

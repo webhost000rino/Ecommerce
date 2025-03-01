@@ -157,7 +157,7 @@ class ProductController extends Controller
      */
     public function shopping(): View
     {
-        $products = Product::latest()->paginate(3);
+        $products = Product::latest()->get();
         return view('shopping', compact('products'));
     }
 
