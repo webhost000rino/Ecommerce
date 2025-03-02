@@ -592,7 +592,7 @@
                         <img src="{{ asset('image/tv.png') }}" alt="TV Elektronik" class="img-fluid">
                         <h3>TV Elektronik Berkualitas</h3>
                         <p>TV dengan resolusi tinggi dan teknologi canggih, memberikan pengalaman menonton yang luar biasa dengan gambar yang tajam dan suara yang jernih.</p>
-                        <a href="#" class="btn btn-outline-primary mt-3">Detail Produk</a>
+                        <a href="/shopping" class="btn btn-outline-primary mt-3">Detail Produk</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -600,7 +600,7 @@
                         <img src="{{ asset('image/Laptop.png') }}" alt="Laptop Elektronik" class="img-fluid">
                         <h3>Laptop Elektronik</h3>
                         <p>Laptop dengan performa tinggi dan desain elegan untuk produktivitas tanpa batas. Dilengkapi prosesor cepat dan grafis yang memukau.</p>
-                        <a href="#" class="btn btn-outline-primary mt-3">Detail Produk</a>
+                        <a href="/shopping" class="btn btn-outline-primary mt-3">Detail Produk</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -608,7 +608,7 @@
                         <img src="{{ asset('image/Smartphone.png') }}" alt="Smartphone" class="img-fluid">
                         <h3>Smartphone Canggih</h3>
                         <p>Teknologi terkini dan desain premium untuk memenuhi kebutuhan Anda. Dengan kamera berkualitas tinggi dan baterai tahan lama.</p>
-                        <a href="#" class="btn btn-outline-primary mt-3">Detail Produk</a>
+                        <a href="/shopping" class="btn btn-outline-primary mt-3">Detail Produk</a>
                     </div>
                 </div>
             </div>

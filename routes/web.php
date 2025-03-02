@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 // Rute utama, jika belum login akan diarahkan ke login
 Route::get('/', function () {
-    return redirect()->route('login');
+    return redirect()->route('landingpage');
 });
 
 Route::get('/landingpage', function () {
